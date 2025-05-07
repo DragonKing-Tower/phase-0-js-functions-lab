@@ -1,0 +1,33 @@
+[1mdiff --git a/index.js b/index.js[m
+[1mindex 7f0c14c..040fde1 100644[m
+[1m--- a/index.js[m
+[1m+++ b/index.js[m
+[36m@@ -1,5 +1,28 @@[m
+[32m+[m[32mfunction calculateTax (amount){[m[41m[m
+[32m+[m[32m    return amount*.1[m[41m[m
+[32m+[m[32m}[m[41m[m
+ [m
+[32m+[m[32mfunction convertToUpperCase (text){[m[41m[m
+[32m+[m[32m    return text.toUpperCase()[m[41m[m
+[32m+[m[32m}[m[41m[m
+ [m
+[32m+[m[32mfunction findMaximum (num1,num2){[m[41m[m
+[32m+[m[32m    if (num1 > num2){[m[41m[m
+[32m+[m[32m        return num1[m[41m[m
+[32m+[m[32m    }else if (num2 > num1){[m[41m[m
+[32m+[m[32m        return num2[m[41m[m
+[32m+[m[32m    }else return num1[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mfunction isPalindrome(word){[m[41m[m
+[32m+[m[32m    let letterArray = word.split("")[m[41m[m
+[32m+[m[32m    let reverseArray = letterArray.reverse()[m[41m[m
+[32m+[m[32m    return word === reverseArray.join("")[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mfunction calculateDiscountedPrice (origonalPrice, DiscountPercentage){[m[41m[m
+[32m+[m[32m    return origonalPrice*(100-DiscountPercentage)/100[m[41m[m
+[32m+[m[32m}[m[41m[m
+ [m
+ [m
+ [m
